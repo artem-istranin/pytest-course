@@ -1,0 +1,26 @@
+name: 'Setup Python Environment'
+description: 'Setup Python and install project dependencies'
+
+inputs:
+  python-version:
+    description: 'Python version to setup'
+    required: true
+
+runs:
+  using: composite
+  steps:
+    - name: Setup Python ${{ inputs.python-version }}
+      uses: actions/setup-python@v5
+      with:
+        python-version: ${{ inputs.python-version }}
+
+    - name: Install dependencies
+      shell: bash
+      run: |
+        python -m pip install -U pip wheel
+        pip install -e ".[dev]"
+
+    - name: Quick CLI smoke test
+      shell: bash
+      run: |
+        units-convert --help || (echo "CLI missing" && exit 1)

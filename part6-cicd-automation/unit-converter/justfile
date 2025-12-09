@@ -1,0 +1,4 @@
+test-all:
+    uv run --python 3.10 --with '.[dev]' pytest
+    uv run --python 3.11 --with '.[dev]' pytest
+    uv run --python 3.12 --with '.[dev]' pytest
