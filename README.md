@@ -1,4 +1,33 @@
-# Pytest Course: Practical Testing of Real-World Python Code
+# [Pytest Course: Practical Testing of Real-World Python Code](https://www.udemy.com/course/pytest-course-python)
+
+
+**Learn how to test real-world Python applications with pytest, from unit tests to full CI/CD automation.**
+
+
+👉 **Enroll here:**  
+**https://www.udemy.com/course/pytest-course-python**
+
+[![Pytest Course – Practical Testing of Real-World Python Code](assets/course_image--v1.4.001.png)](https://www.udemy.com/course/pytest-course-python)
+
+
+---
+
+## 🚀 Learn Pytest the Way It’s Used in Real Projects
+
+This course is a **hands-on, practical guide to testing real-world Python code with pytest**.  
+No toy examples. No artificial exercises. Just the patterns, tools, and workflows you’ll actually use as a Python developer.
+
+If you’ve ever:
+- felt unsure how to structure tests properly  
+- struggled with fixtures, mocks, or parametrization  
+- wanted confidence refactoring production code  
+- or needed to introduce testing into an existing codebase  
+
+👉 this course is built for you.
+
+---
+
+## 📚 Course Content
 
 ## Part 1: Introduction
 
