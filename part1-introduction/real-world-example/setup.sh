@@ -1,27 +1,36 @@
+# Source: https://scikit-learn.org/1.8/developers/development_setup.html#setup-development-environment
+
+# Step 1: clone the scikit-learn repo and check out the latest release tag
 git clone https://github.com/scikit-learn/scikit-learn.git
 
 cd scikit-learn
-git tag
+
 git fetch --tags
-git checkout 1.6.1
-git status  # expected: HEAD detached at 1.6.1
+git tag  # you can run it is see which branches are available in your terminal, exit with q
 
-# > from https://scikit-learn.org/1.6/developers/advanced_installation.html:
-# (make sure to start from a clean python env!)
+git checkout 1.8.0
 
-brew install pyenv-virtualenv
+git status  # expected: HEAD detached at 1.8.0
 
-pyenv virtualenv 3.12.3 sklearn-env
+# Step 2: Create and activate a new virtual environment
+# macOS instructions (see the link above for other operating systems)
+xcode-select --install
+brew install libomp
+
+brew install pyenv
+
+pyenv virtualenv 3.12 sklearn-env
 pyenv activate sklearn-env
 
-pip install wheel numpy scipy cython meson-python ninja
+pip install wheel numpy scipy cython meson-python ninja \
+  pytest pytest-cov ruff==0.11.2 mypy numpydoc \
+  joblib threadpoolctl pre-commit
 
-# > Install a compiler with OpenMP support for your platform - see scikit-learn documentation link
-
-# cd scikit-learn if not already there!
-make clean
 pip install --editable ".[examples,tests]" \
-   --verbose --no-build-isolation \
-   --config-settings editable-verbose=true
+  --verbose --no-build-isolation \
+  --config-settings editable-verbose=true
 
+# Step 3: Check your installation
 python -c "import sklearn; sklearn.show_versions()"
+
+pytest

@@ -12,7 +12,12 @@ class OrderError(Exception):
     pass
 
 
-def process_order(product: Product, quantity: int, is_premium_user: bool, order_time: datetime) -> dict:
+def process_order(
+    product: Product,
+    quantity: int,
+    is_premium_user: bool,
+    order_time: datetime,
+) -> dict:
     if quantity <= 0:
         raise OrderError("Quantity must be greater than 0")
 
@@ -29,14 +34,14 @@ def process_order(product: Product, quantity: int, is_premium_user: bool, order_
     product.stock -= quantity
 
     is_expedited = order_time.hour < 15
-
-    estimated_delivery = order_time + timedelta(days=1 if is_expedited else 3)
+    delivery_time = timedelta(days=1 if is_expedited else 3)
+    estimated_delivery = order_time + delivery_time
 
     return {
         "product": product.name,
         "quantity": quantity,
         "discount": round(discount, 2),
         "total": round(total, 2),
-        "estimated_delivery": estimated_delivery.strftime('%Y-%m-%d'),
+        "estimated_delivery": estimated_delivery.strftime("%Y-%m-%d"),
         "expedited": is_expedited,
     }

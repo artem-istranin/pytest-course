@@ -1,25 +1,14 @@
-from worker import Worker
-import pytest
+from src.worker import Worker
 
 
-def test_worker_can_be_created():
-    worker = Worker('John', 30, 80, worker_id=1234)
-    assert worker.name == 'John'
-    assert worker.salary == 30
-    assert worker.work_hours == 80
+def test_worker_init():
+    worker = Worker(name="John", salary_per_hour=100, hours_per_week=40)
+    assert worker.name == "John"
+    assert worker.salary == 100
+    assert worker.hours_per_week == 40
 
 
-def test_worker_can_get_annual_salary():
-    worker = Worker('John', 30, 150, worker_id=1234)
-    expected_salary = 30 * 150 * 12
-    assert worker.get_annual_salary() == expected_salary
-
-
-def test_worker_get_filial_number():
-    worker = Worker('John', 30, 150, worker_id=1234)
-    assert worker.get_filial_number() == '0001'
-
-
-def test_worker_without_filial_raises_error():
-    with pytest.raises(KeyError):
-        Worker('Peter', 30, 150, worker_id=9099)
+def test_calculate_annual_salary():
+    worker = Worker(name="John", salary_per_hour=100, hours_per_week=40)
+    annual_salary = worker.get_annual_salary()
+    assert annual_salary == 100 * 40 * 4 * 12

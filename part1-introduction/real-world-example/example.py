@@ -1,18 +1,30 @@
-from sklearn.linear_model import LinearRegression
-from sklearn.datasets import load_diabetes
-
 import matplotlib.pyplot as plt
 
-model = LinearRegression(custom_scaling=-1.5, copy_X=True)
+from sklearn.datasets import load_wine
 
-X, y = load_diabetes(return_X_y=True)
-print(X[0])
+import numpy as np
+from sklearn.preprocessing import MinMaxScaler
 
-model.fit(X, y)
-print(X[0])
 
-pred = model.predict(X[:10])
+if __name__ == '__main__':
+    wine_dataset = load_wine()["data"]
+    alcohol, proline = wine_dataset[:, [0, 12]].T
 
-plt.scatter(range(10), y[:10], color='green')
-plt.scatter(range(10), pred, color='red')
-plt.show()
+    plt.scatter(alcohol, proline)
+    plt.title("Alcohol vs. proline, raw data")
+    plt.xlabel("Alcohol")
+    plt.ylabel("Proline")
+    plt.show()
+
+    scaler = MinMaxScaler(
+        log_scaling=True
+    )
+    wine_features = np.vstack((alcohol, proline)).T
+    scaler.fit(wine_features)
+    alcohol_scaled, proline_scaled = scaler.transform(wine_features).T
+
+    plt.scatter(alcohol_scaled, proline_scaled)
+    plt.title("Alcohol vs. proline, scaled data")
+    plt.xlabel("Alcohol")
+    plt.ylabel("Proline")
+    plt.show()
