@@ -1,29 +1,33 @@
-# [Pytest Course: Practical Testing of Real-World Python Code](https://www.udemy.com/course/pytest-course-python)
+# [Pytest Course: Practical Testing of Real-World Python Code](https://www.udemy.com/course/pytest-course-python/?referralCode=13C8B78647A5FDB787FF)
 
 
-**Learn how to test real-world Python applications with pytest, from unit tests to full CI/CD automation.**
+**Learn test automation in Python with pytest: from basic software testing to full CI/CD pipelines with GitHub Actions**
 
 
 👉 **Enroll here:**  
-**https://www.udemy.com/course/pytest-course-python**
+**[https://www.udemy.com/course/pytest-course-python](https://www.udemy.com/course/pytest-course-python/?referralCode=13C8B78647A5FDB787FF)**
 
-[![Pytest Course – Practical Testing of Real-World Python Code](assets/course_image--v1.4.001.png)](https://www.udemy.com/course/pytest-course-python)
-
-
----
+[![Pytest Course – Practical Testing of Real-World Python Code](assets/course_image--v1.4.001.png)](https://www.udemy.com/course/pytest-course-python/?referralCode=13C8B78647A5FDB787FF)
 
 ## 🚀 Learn Pytest the Way It’s Used in Real Projects
 
-This course is a **hands-on, practical guide to testing real-world Python code with pytest**.  
-No toy examples. No artificial exercises. Just the patterns, tools, and workflows you’ll actually use as a Python developer.
+✓ Implement test automation in Python with pytest, the most popular test framework, to master basic software testing for writing high-quality code.
 
-If you’ve ever:
-- felt unsure how to structure tests properly  
-- struggled with fixtures, mocks, or parametrization  
-- wanted confidence refactoring production code  
-- or needed to introduce testing into an existing codebase  
+✓ Complete a practical automation testing path with pytest, covering unit testing, integration testing, and Python API testing - from 0% to 100% code coverage.
 
-👉 this course is built for you.
+✓ Integrate pytest into a CI/CD pipeline using GitHub Actions to run automation testing on every change in your code.
+
+✓ Learn pytest best practices - fixtures, parametrization, markers - to build scalable test automation solutions.
+
+✓ Apply TDD (Test Driven Development) with pytest framework to improve your python coding skills and design clean, testable software.
+
+✓ Identify, reproduce, and fix bugs reliably using structured debugging strategies aligned with basic software testing principles.
+
+✓ Test legacy code with pytest framework using unit testing, integration testing, and Python API testing, then refactor with confidence.
+
+---
+
+**👉 See full course description [HERE](assets/COURSE_DESCRIPTION.md)**
 
 ---
 
@@ -32,13 +36,16 @@ If you’ve ever:
 ## Part 1: Introduction
 
 - Introduction
+- Course Roadmap
 - [Real World Example: New Scikit Feature](part1-introduction/real-world-example)
-- [Real World Example: Why Testing](part1-introduction/real-world-example)
-- [TDD & BDD: From Theory to Practice](part1-introduction/tdd-bdd)
+- [Real World Example: Testing  New Feature](part1-introduction/real-world-example)
+- Why Testing: From Theory to Practice
 - Virtual Environments & pytest Installation
-- [Pytest: Run & Debug](part1-introduction/pytest-run-and-debug)
+- [Pytest: Run & Debug](part1-introduction/run-and-debug)
+- [Test Discovery](part1-introduction/run-and-debug)
 - [Test Execution Status](part1-introduction/test-execution-status)
-- [Hands-On Practice: Order Processing](part1-introduction/practice-orders-processing)
+- [Hands-On Practice](part1-introduction/_practice-orders-processing--LEGACY)
+- [TDD and BDD: Testing Approaches](part1-introduction/tdd-bdd)
 - Module Summary
 
 ## Part 2: Diving Deeper into pytest
@@ -85,7 +92,7 @@ If you’ve ever:
 - [Advanced Mocking](part5-advanced-pytest/pftracker)
 - [Mocking with mocker](part5-advanced-pytest/pftracker)
 - [Mocking Classes](part5-advanced-pytest/pftracker)
-- [Mock Drift](part5-advanced-pytest/pftracker)
+- [Too Much Mocking vs Too Little](part5-advanced-pytest/pftracker)
 - [Patching Target](part5-advanced-pytest/patching)
 - [Patching Decorators](part5-advanced-pytest/patching)
 - [Markers](part5-advanced-pytest/pftracker)
