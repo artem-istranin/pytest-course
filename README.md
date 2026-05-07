@@ -1,13 +1,13 @@
-# [Pytest Course: Practical Testing of Real-World Python Code](https://www.udemy.com/course/pytest-course-python/?referralCode=13C8B78647A5FDB787FF)
+# [Pytest Course: Python Test Automation & GitHub Actions CI/CD](https://www.udemy.com/course/pytest-course-python/?referralCode=13C8B78647A5FDB787FF)
 
 
-**Learn test automation in Python with pytest: from basic software testing to full CI/CD pipelines with GitHub Actions**
+**Learn pytest for real-world Python testing: unit testing, API testing, automation &amp; CI/CD pipelines with GitHub Actions**
 
 
 👉 **Enroll here:**  
 **[https://www.udemy.com/course/pytest-course-python](https://www.udemy.com/course/pytest-course-python/?referralCode=13C8B78647A5FDB787FF)**
 
-[![Pytest Course – Practical Testing of Real-World Python Code](assets/course_image.jpeg)](https://www.udemy.com/course/pytest-course-python/?referralCode=13C8B78647A5FDB787FF)
+[![Pytest Course: Python Test Automation & GitHub Actions CI/CD](assets/course_image.jpeg)](https://www.udemy.com/course/pytest-course-python/?referralCode=13C8B78647A5FDB787FF)
 
 ## 🚀 Learn Pytest the Way It’s Used in Real Projects
 
