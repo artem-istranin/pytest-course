@@ -1,7 +1,7 @@
 # [Pytest Course: Python Test Automation & GitHub Actions CI/CD](https://www.udemy.com/course/pytest-course-python/?referralCode=13C8B78647A5FDB787FF)
 
 
-**Learn pytest for real-world Python testing: unit testing, API testing, automation &amp; CI/CD pipelines with GitHub Actions**
+**Learn Pytest Framework: Python Automation Testing, Unit Testing, API Testing & Test Automation with GitHub Actions CI/CD**
 
 
 👉 **Enroll here:**  
@@ -11,19 +11,15 @@
 
 ## 🚀 Learn Pytest the Way It’s Used in Real Projects
 
-✓ Implement test automation in Python with pytest, the most popular test framework, to master basic software testing for writing high-quality code.
+✓ Learn Pytest framework for Python automation testing, from basic software testing to advanced level
 
-✓ Complete a practical automation testing path with pytest, covering unit testing, integration testing, and Python API testing - from 0% to 100% code coverage.
+✓ Write unit, integration, and API tests in Python - from 0% to 100% test automation coverage
 
-✓ Integrate pytest into a CI/CD pipeline using GitHub Actions to run automation testing on every change in your code.
+✓ Implement CI/CD pipelines using GitHub Actions to run automated tests on every code change
 
-✓ Learn pytest best practices - fixtures, parametrization, markers - to build scalable test automation solutions.
+✓ Apply TDD (Test Driven Development) with Pytest framework in real-world projects
 
-✓ Apply TDD (Test Driven Development) with pytest framework to improve your python coding skills and design clean, testable software.
-
-✓ Identify, reproduce, and fix bugs reliably using structured debugging strategies aligned with basic software testing principles.
-
-✓ Test legacy code with pytest framework using unit testing, integration testing, and Python API testing, then refactor with confidence.
+✓ Debug and fix software issues efficiently using Python software testing best practices
 
 ---
 
