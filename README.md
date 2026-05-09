@@ -21,11 +21,28 @@
 
 ✓ Debug efficiently using Python software testing best practices with real-world examples
 
----
 
-**👉 See full course description [HERE](assets/COURSE_DESCRIPTION.md)**
+## 🏆 What Students Say About This Course
 
----
+![course_reviews.png](assets/course_reviews.png)
+
+Cas Teeuwen (Data Engineer at [Xomnia](https://xomnia.com)) - 5/5 rating feedback
+
+> It was very well made and I learned a lot!
+
+Dino Bavaro (Python Backend Engineer) - 5/5 rating feedback
+
+> Excellent Real-world Code examples
+
+Bilal Samee (Python & Embedded Systems Engineer) - 5/5 rating feedback
+
+> Great course on pytest. Straight to the point. Touches on all important points. Starts by showing a scenario, then leads the student into why a test concept (e.g. fixture, mock) is needed and what it solves. Gives real life examples and problems the student can hack at. Includes a review at the end of every module, bringing together everything the student has learnt in that module.
+
+Armand Borel (Python Data & Automation Engineer) - 5/5 rating feedback
+
+> This course has been great. It explains pytest and testing very clearly, starting from the basics and quickly moving into real world usage. The real code examples are very helpful, and mocking is covered in clear detail, which makes complex topics much easier to understand.
+
+👉 Enroll Now: https://www.udemy.com/course/pytest-course-python ✨
 
 ## 📚 Course Content
 

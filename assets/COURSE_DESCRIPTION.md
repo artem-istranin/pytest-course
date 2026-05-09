@@ -28,7 +28,7 @@ We will work with real examples, NOT just small toy code. You will practice pyth
 
 # Course Roadmap
 
-[![course-roadmap.png](course-roadmap.png)](https://www.udemy.com/course/pytest-course-python/?referralCode=13C8B78647A5FDB787FF)
+[![course-roadmap.png](course_roadmap.png)](https://www.udemy.com/course/pytest-course-python/?referralCode=13C8B78647A5FDB787FF)
 
 This course is organized into six modules, each building on the previous one to guide you from basic software testing concepts to advanced test automation and automation testing with pytest, including full integration into CI/CD pipelines.
 
