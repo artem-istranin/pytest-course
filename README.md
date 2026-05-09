@@ -17,9 +17,9 @@
 
 ✓ Implement CI/CD pipelines using GitHub Actions to run automated tests on every code change
 
-✓ Apply TDD (Test Driven Development) with Pytest framework in real-world projects
+✓ Test-Driven Development (TDD), Fixtures, Mocking, Monkeypatch, Parameterize, FastAPI testing, API testing
 
-✓ Debug and fix software issues efficiently using Python software testing best practices
+✓ Debug efficiently using Python software testing best practices with real-world examples
 
 ---
 
