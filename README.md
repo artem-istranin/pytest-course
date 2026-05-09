@@ -1,13 +1,13 @@
 # [Pytest Course: Python Test Automation & GitHub Actions CI/CD](https://www.udemy.com/course/pytest-course-python/?referralCode=13C8B78647A5FDB787FF)
 
+[![Pytest Course: Python Test Automation & GitHub Actions CI/CD](assets/course_image.png)](https://www.udemy.com/course/pytest-course-python/?referralCode=13C8B78647A5FDB787FF)
+
 
 **Learn Pytest Framework: Python Automation Testing, Unit Testing, API Testing & Test Automation with GitHub Actions CI/CD**
 
 
-👉 **Enroll here:**  
-**[https://www.udemy.com/course/pytest-course-python](https://www.udemy.com/course/pytest-course-python/?referralCode=13C8B78647A5FDB787FF)**
+👉 Enroll Now: [https://www.udemy.com/course/pytest-course-python](https://www.udemy.com/course/pytest-course-python/?referralCode=13C8B78647A5FDB787FF) ✨
 
-[![Pytest Course: Python Test Automation & GitHub Actions CI/CD](assets/course_image.png)](https://www.udemy.com/course/pytest-course-python/?referralCode=13C8B78647A5FDB787FF)
 
 ## 🚀 Learn Pytest the Way It’s Used in Real Projects
 
